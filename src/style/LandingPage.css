@@ -6,8 +6,8 @@
 .intro{
     height: 310px;
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .title{
     font-size: 3rem;
@@ -22,19 +22,18 @@
     background-size: cover;
 }
 .superhero{
-    background: url("../assets/joker2.jpg");
     height: auto;
+    background: url("../assets/joker2.jpg");
     background-size: cover;
 }
 .movieImg{
     height: auto;
-    object-fit: cover;
     background-color: black;
     margin: 5px;
     padding: 5px;
 }
 .movieWrapper{
-
+height: auto;
 }
 
 .images{
